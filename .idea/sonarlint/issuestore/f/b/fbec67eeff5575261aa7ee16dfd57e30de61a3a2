@@ -1,0 +1,42 @@
+
+O
+java:S1874Â"3Remove this use of "isConnected"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+i	java:S100Å"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¦û·ùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò‹ì™øÿÿÿÿ
+
+java:S1186Ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£µ¢›ÿÿÿÿÿ
+P
+java:S1874k":Remove this use of "getFragmentManager"; it is deprecated.(Ìé¢À
+Q
+java:S1874S"6Remove this use of "ProgressDialog"; it is deprecated.(õ¹´ıüÿÿÿÿ
+P
+java:S1874`":Remove this use of "getFragmentManager"; it is deprecated.(Ìé¢À
+N
+java:S1854Î"7Remove this useless assignment to local variable "msg".(Ü„
+W
+java:S1854‰"@Remove this useless assignment to local variable "tag_json_obj".(¿¥«
+@
+java:S1659>"%Declare "credits" on a separate line.(ëˆÕ’ûÿÿÿÿ
+?
+java:S1481Î"(Remove this unused "msg" local variable.(Ü„
+X
+java:S1874Â"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+S
+java:S2589“"7Remove this expression which always evaluates to "true"(¹éÄÌùÿÿÿÿ
+l	java:S116A"RRename this field "user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù¡úÆúÿÿÿÿ
+E
+java:S1659>"*Declare "notification" on a separate line.(ëˆÕ’ûÿÿÿÿ
+g	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¥«
+>
+java:S1659>"#Declare "crdts" on a separate line.(ëˆÕ’ûÿÿÿÿ
+H
+java:S1481‰"1Remove this unused "tag_json_obj" local variable.(¿¥«
+M
+java:S1874T"2Remove this use of "setMessage"; it is deprecated.(ñËÄİÿÿÿÿÿ
+D	java:S108µ")Either remove or fill this block of code.(™²¨©ûÿÿÿÿ
+X
+java:S1874Â"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+u
+java:S2293Š"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+L
+java:S1874;"6Remove this use of "ProgressDialog"; it is deprecated.(ğİıº

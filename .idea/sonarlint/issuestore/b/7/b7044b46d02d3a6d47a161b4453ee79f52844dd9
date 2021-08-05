@@ -1,0 +1,17 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿãÈÎ
+n
+java:S1104"SMake address a static final constant or non-public and provide accessors if needed.(†È†èûÿÿÿÿ
+@
+java:S1659"%Declare "credits" on a separate line.(†È†èûÿÿÿÿ
+l
+java:S1104"QMake Date2 a static final constant or non-public and provide accessors if needed.(†È†èûÿÿÿÿ
+n
+java:S1104"SMake credits a static final constant or non-public and provide accessors if needed.(†È†èûÿÿÿÿ
+>
+java:S1659"#Declare "Date2" on a separate line.(†È†èûÿÿÿÿ
+k
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.(†È†èûÿÿÿÿ
+j	java:S116"PRename this field "Date2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†È†èûÿÿÿÿ
+@
+java:S1659"%Declare "address" on a separate line.(†È†èûÿÿÿÿ

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/nav_homed"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:visible="false"
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_name"
+            android:title="My Profile" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_credit"
+            android:icon="@drawable/ic_wallet"
+            android:title="Credit Balance" />
+        <item
+            android:visible="false"
+            android:id="@+id/nav_jobhistory"
+            android:icon="@drawable/ic_clipboard"
+            android:title="Jobs Details" />
+        <item
+            android:id="@+id/nav_gst"
+            android:icon="@drawable/ic_credit_card"
+            android:title="GST,PAN &amp; Bank Details" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_accept"
+            android:title="Terms of use" />
+        <item
+            android:id="@+id/nav_contct"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact us" />
+
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out" />
+
+    </group>
+</menu>

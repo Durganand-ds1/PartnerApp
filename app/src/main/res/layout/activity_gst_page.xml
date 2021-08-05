@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="3"
+    android:background="@color/white"
+    tools:context=".Activity.BankEdit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ic_left_arrow"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:text="GST Details"
+            android:gravity="center|left"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GST/PAN Number"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="2dp"
+                        android:padding="5dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Please update GST/PAN Number"
+                        android:gravity="center|left"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/grey"
+                        android:layout_marginBottom="7dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:background="@color/grey"></View>
+                    <EditText
+                        android:id="@+id/RegstrdNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/backgrnd_button"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:singleLine="true"
+                        android:hint="---"
+                        android:digits="1234567890"
+                        android:inputType="phone"
+                        android:gravity="center|left"
+                        android:padding="8dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="7dp"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name (as registered)"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="2dp"
+                        android:padding="5dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Please update your Name"
+                        android:gravity="center|left"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/grey"
+                        android:layout_marginBottom="7dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:background="@color/grey"></View>
+                    <EditText
+                        android:id="@+id/Nmae"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/backgrnd_button"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:hint="---"
+                        android:inputType="text"
+                        android:digits="qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM"
+                        android:singleLine="true"
+                        android:gravity="center|left"
+                        android:padding="8dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="7dp"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date of Birth (as registered)"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="2dp"
+                        android:padding="5dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Please update your DOB"
+                        android:gravity="center|left"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/grey"
+                        android:layout_marginBottom="7dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:background="@color/grey"></View>
+                    <TextView
+                        android:id="@+id/Dob"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/backgrnd_button"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:hint="---"
+                        android:singleLine="true"
+                        android:gravity="center|left"
+                        android:padding="8dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="7dp"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gender (as registered)"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="2dp"
+                        android:padding="5dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Please update Gender"
+                        android:gravity="center|left"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/grey"
+                        android:layout_marginBottom="7dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:background="@color/grey"></View>
+                    <EditText
+                        android:id="@+id/gendertypee"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/backgrnd_button"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:hint="---"
+                        android:singleLine="true"
+                        android:gravity="center|left"
+                        android:padding="8dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="7dp"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Father's Name (as registered)"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="2dp"
+                        android:padding="5dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Please update your Father's Name"
+                        android:gravity="center|left"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/grey"
+                        android:layout_marginBottom="7dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:background="@color/grey"></View>
+                    <EditText
+                        android:id="@+id/dadName"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/backgrnd_button"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:hint="---"
+                        android:digits="QWERTYUIOPASDFGHJKLZXCVBNM qwertyuiopasdfghjklzxcvbnm"
+                        android:singleLine="true"
+                        android:gravity="center|left"
+                        android:padding="8dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="7dp"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Permanent Address (as registered)"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="2dp"
+                        android:padding="5dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Please update your Permanent Address"
+                        android:gravity="center|left"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/grey"
+                        android:layout_marginBottom="7dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:background="@color/grey"></View>
+                    <EditText
+                        android:id="@+id/pAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/backgrnd_button"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:hint="---"
+                        android:singleLine="true"
+                        android:gravity="center|left"
+                        android:padding="8dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="7dp"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pan Card Number"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="2dp"
+                        android:padding="5dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/txt_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Please update PAN number"
+                        android:gravity="center|left"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/grey"
+                        android:layout_marginBottom="7dp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp"
+                        android:background="@color/grey"></View>
+                    <EditText
+                        android:id="@+id/panNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/backgrnd_button"
+                        android:backgroundTint="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:hint="---"
+                        android:singleLine="true"
+                        android:gravity="center|left"
+                        android:padding="8dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="7dp"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/cfront"
+
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="3dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:src="@drawable/ic_camera"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/frntImg"></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Upload Front Image"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="5dp"
+                        android:padding="5dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/txt_color" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/lightgrey"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="3dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:src="@drawable/ic_camera"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/bckImg"></ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Upload Back Image"
+                        android:gravity="center|left"
+                        android:layout_marginLeft="5dp"
+                        android:padding="5dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/txt_color" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/Updtae"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="-47dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/backgrnd_button"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="true"
+            android:text="Update"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SAVE"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="-47dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/backgrnd_button"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="true"
+            android:text="Save"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

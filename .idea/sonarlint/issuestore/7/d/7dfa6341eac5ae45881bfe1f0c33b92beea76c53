@@ -1,0 +1,53 @@
+
+E
+java:S14447"/Make this "public static txtSignUp" field final(ò´­¢
+g	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¹…³
+l	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¾‚Óıÿÿÿÿ
+l	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ì½¦üÿÿÿÿ
+g	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒªÙ
+g	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ãø
+l	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ãıÿÿÿÿ
+f	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´óy
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò‹ì™øÿÿÿÿ
+k
+java:S11047"UMake txtSignUp a static final constant or non-public and provide accessors if needed.(ò´­¢
+9
+java:S16592"#Declare "ePass" on a separate line.(ÙÊ“¨
+A
+java:S16593"&Declare "btnLogin" on a separate line.(¢£Ëøÿÿÿÿ
+;
+java:S16595"%Declare "user_id" on a separate line.(Ã»î‹
+g	java:S1165"RRename this field "user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã»î‹
+L
+java:S18744"6Remove this use of "ProgressDialog"; it is deprecated.(ğİıº
+Q
+java:S1874C"6Remove this use of "ProgressDialog"; it is deprecated.(õ¹´ıüÿÿÿÿ
+M
+java:S1874D"2Remove this use of "setMessage"; it is deprecated.(ñËÄİÿÿÿÿÿ
+Q
+java:S2696W"6Make the enclosing method "static" or remove this set.(óÀÁÿÿÿÿÿ
+P
+java:S1874^":Remove this use of "getFragmentManager"; it is deprecated.(Ìé¢À
+V
+java:S1854«"?Remove this useless assignment to local variable "category_id".(˜ãø
+\
+java:S1117°"ERename "sessionManagement" which hides the field declared at line 54.(¡‹­ë
+
+java:S1186Â"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£µ¢›ÿÿÿÿÿ
+i	java:S100Ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¦û·ùÿÿÿÿ
+N
+java:S1854á"7Remove this useless assignment to local variable "msg".(Ü„
+\
+java:S1117æ"ERename "sessionManagement" which hides the field declared at line 54.(¡‹­ë
+
+java:S1186ï"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£µ¢›ÿÿÿÿÿ
+X
+java:S1874…"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+X
+java:S1874…"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+O
+java:S1874…"3Remove this use of "isConnected"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+G
+java:S1481«"0Remove this unused "category_id" local variable.(˜ãø
+?
+java:S1481á"(Remove this unused "msg" local variable.(Ü„

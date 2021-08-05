@@ -1,0 +1,102 @@
+
+g	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¥«
+l	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ãèªúÿÿÿÿ
+g	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ß½ì
+l	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çª‚ƒüÿÿÿÿ
+l	java:S117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯±¶¢ıÿÿÿÿ
+g	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¥«
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»´¤éùÿÿÿÿ
+l	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¨Å¸ùÿÿÿÿ
+l	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ù›“ıÿÿÿÿ
+g	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÈîÍ
+l	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö·ìúÿÿÿÿ
+l	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Å˜üÿÿÿÿ
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢‚Ôûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò‹ì™øÿÿÿÿ
+A
+java:S16595"&Declare "Panchnge" on a separate line.(ÑÔ‘úÿÿÿÿ
+B
+java:S16595"'Declare "BankChnge" on a separate line.(ÑÔ‘úÿÿÿÿ
+>
+java:S16595"#Declare "edit1" on a separate line.(ÑÔ‘úÿÿÿÿ
+>
+java:S16595"#Declare "edit2" on a separate line.(ÑÔ‘úÿÿÿÿ
+>
+java:S16595"#Declare "edit3" on a separate line.(ÑÔ‘úÿÿÿÿ
+B
+java:S16596"'Declare "nameProof" on a separate line.(ª³úşÿÿÿÿ
+@
+java:S16596"%Declare "idProof" on a separate line.(ª³úşÿÿÿÿ
+@
+java:S16596"%Declare "gstName" on a separate line.(ª³úşÿÿÿÿ
+@
+java:S16596"%Declare "BnkName" on a separate line.(ª³úşÿÿÿÿ
+>
+java:S16596"#Declare "AccNo" on a separate line.(ª³úşÿÿÿÿ
+=
+java:S16596""Declare "IFSC" on a separate line.(ª³úşÿÿÿÿ
+A
+java:S16596"&Declare "userName" on a separate line.(ª³úşÿÿÿÿ
+@
+java:S16596"%Declare "PAnCard" on a separate line.(ª³úşÿÿÿÿ
+@
+java:S16598"%Declare "frntImg" on a separate line.(¹–ëÑùÿÿÿÿ
+?
+java:S16598"$Declare "bckImg" on a separate line.(¹–ëÑùÿÿÿÿ
+m	java:S1165"SRename this field "GSTchnge" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÔ‘úÿÿÿÿ
+m	java:S1165"SRename this field "Panchnge" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÔ‘úÿÿÿÿ
+n	java:S1165"TRename this field "BankChnge" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÔ‘úÿÿÿÿ
+l	java:S1166"RRename this field "BnkName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª³úşÿÿÿÿ
+j	java:S1166"PRename this field "AccNo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª³úşÿÿÿÿ
+i	java:S1166"ORename this field "IFSC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª³úşÿÿÿÿ
+l	java:S1166"RRename this field "PAnCard" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª³úşÿÿÿÿ
+L
+java:S18742"6Remove this use of "ProgressDialog"; it is deprecated.(ğİıº
+Q
+java:S1874E"6Remove this use of "ProgressDialog"; it is deprecated.(õ¹´ıüÿÿÿÿ
+M
+java:S1874F"2Remove this use of "setMessage"; it is deprecated.(ñËÄİÿÿÿÿÿ
+W
+java:S1854«"@Remove this useless assignment to local variable "tag_json_obj".(¿¥«
+u
+java:S2293¬"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+W
+java:S1854¸";Remove this useless assignment to local variable "message".(ëè Øúÿÿÿÿ
+W
+java:S1854Á";Remove this useless assignment to local variable "bank_id".(·ãèªúÿÿÿÿ
+W
+java:S1854ë"@Remove this useless assignment to local variable "tag_json_obj".(¿¥«
+n
+java:S3776é"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(õ‡È¨şÿÿÿÿ
+u
+java:S2293ì"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+W
+java:S1854ø";Remove this useless assignment to local variable "message".(ëè Øúÿÿÿÿ
+Q
+java:S1854…":Remove this useless assignment to local variable "gender".(Š’¡Ä
+U
+java:S1854‡"9Remove this useless assignment to local variable "d_o_b".(±Å˜üÿÿÿÿ
+]
+java:S1854ˆ"ARemove this useless assignment to local variable "permanent_add".(¢‚Ôûÿÿÿÿ
+X
+java:S1874Á"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+X
+java:S1874Á"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+O
+java:S1874Á"3Remove this use of "isConnected"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+H
+java:S1481Á",Remove this unused "bank_id" local variable.(·ãèªúÿÿÿÿ
+H
+java:S1481¸",Remove this unused "message" local variable.(ëè Øúÿÿÿÿ
+H
+java:S1481«"1Remove this unused "tag_json_obj" local variable.(¿¥«
+B
+java:S1481…"+Remove this unused "gender" local variable.(Š’¡Ä
+F
+java:S1481‡"*Remove this unused "d_o_b" local variable.(±Å˜üÿÿÿÿ
+N
+java:S1481ˆ"2Remove this unused "permanent_add" local variable.(¢‚Ôûÿÿÿÿ
+H
+java:S1481ø",Remove this unused "message" local variable.(ëè Øúÿÿÿÿ
+H
+java:S1481ë"1Remove this unused "tag_json_obj" local variable.(¿¥«

@@ -1,0 +1,86 @@
+
+_
+java:S1192­"HDefine a constant instead of duplicating this literal "message" 3 times.(Ü„
+^
+java:S1192¬"GDefine a constant instead of duplicating this literal "status" 3 times.(©©­ı
+b
+java:S1192É"KDefine a constant instead of duplicating this literal "partner_id" 4 times.(×ùµš
+g	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¥«
+g	java:S117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²½Ø¬
+l	java:S117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ëé“üÿÿÿÿ
+l	java:S117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¸ê³ÿÿÿÿÿ
+l	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃŠÔ¿øÿÿÿÿ
+g	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¨Éí
+l	java:S117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¼üùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò‹ì™øÿÿÿÿ
+D
+java:S16598")Declare "tprofession" on a separate line.(ø½‹øÿÿÿÿ
+F
+java:S16598"+Declare "tbusinessNAme" on a separate line.(ø½‹øÿÿÿÿ
+A
+java:S16598"&Declare "twebsite" on a separate line.(ø½‹øÿÿÿÿ
+@
+java:S16598"%Declare "txtProf" on a separate line.(ø½‹øÿÿÿÿ
+>
+java:S16598"#Declare "email" on a separate line.(ø½‹øÿÿÿÿ
+>
+java:S16598"#Declare "mobNo" on a separate line.(ø½‹øÿÿÿÿ
+@
+java:S16598"%Declare "editbtn" on a separate line.(ø½‹øÿÿÿÿ
+?
+java:S16598"$Declare "txtupi" on a separate line.(ø½‹øÿÿÿÿ
+?
+java:S1659:"$Declare "userId" on a separate line.(Í«±øÿÿÿÿ
+@
+java:S1659>"*Declare "notification" on a separate line.(½ºÑÂ
+;
+java:S1659>"%Declare "credits" on a separate line.(½ºÑÂ
+9
+java:S1659>"#Declare "crdts" on a separate line.(½ºÑÂ
+;
+java:S1659>"%Declare "savebtn" on a separate line.(½ºÑÂ
+L
+java:S18749"6Remove this use of "ProgressDialog"; it is deprecated.(ğİıº
+Q
+java:S1874K"6Remove this use of "ProgressDialog"; it is deprecated.(õ¹´ıüÿÿÿÿ
+M
+java:S1874L"2Remove this use of "setMessage"; it is deprecated.(ñËÄİÿÿÿÿÿ
+P
+java:S1874p":Remove this use of "getFragmentManager"; it is deprecated.(Ìé¢À
+Q
+java:S1874Œ":Remove this use of "getFragmentManager"; it is deprecated.(Ìé¢À
+
+java:S1186Á"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£µ¢›ÿÿÿÿÿ
+W
+java:S1854Ö"@Remove this useless assignment to local variable "tag_json_obj".(¿¥«
+u
+java:S2293×"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+W
+java:S1854ã";Remove this useless assignment to local variable "message".(ëè Øúÿÿÿÿ
+U
+java:S1854è">Remove this useless assignment to local variable "partner_id".(²½Ø¬
+U
+java:S1854î"9Remove this useless assignment to local variable "coins".(Ğÿ×ıÿÿÿÿ
+X
+java:S1874•"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+X
+java:S1874•"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+O
+java:S1874•"3Remove this use of "isConnected"; it is deprecated.(ˆÛ¡Çøÿÿÿÿ
+i	java:S100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¦û·ùÿÿÿÿ
+N
+java:S1854 "7Remove this useless assignment to local variable "msg".(Ü„
+Q
+java:S1117£";Rename "coinsss" which hides the field declared at line 58.(¿œ‹`
+
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£µ¢›ÿÿÿÿÿ
+F
+java:S1481è"/Remove this unused "partner_id" local variable.(²½Ø¬
+F
+java:S1481î"*Remove this unused "coins" local variable.(Ğÿ×ıÿÿÿÿ
+H
+java:S1481ã",Remove this unused "message" local variable.(ëè Øúÿÿÿÿ
+H
+java:S1481Ö"1Remove this unused "tag_json_obj" local variable.(¿¥«
+?
+java:S1481 "(Remove this unused "msg" local variable.(Ü„

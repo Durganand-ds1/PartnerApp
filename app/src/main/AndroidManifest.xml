@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tecmanic.servicepartner">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.tecmanic.servicepartner.Activity.ProfileEdit"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.tecmanic.servicepartner.Activity.ForgotPassActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.tecmanic.servicepartner.Activity.OTPActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.tecmanic.servicepartner.Activity.PasswordResetActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.tecmanic.servicepartner.Activity.RechargePlan" />
+        <activity
+            android:name="com.tecmanic.servicepartner.Activity.OrderSuccessfull"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.tecmanic.servicepartner.Activity.PanPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.tecmanic.servicepartner.Activity.GstPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.tecmanic.servicepartner.Activity.BankEdit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.tecmanic.servicepartner.Activity.AfterBankEdit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.tecmanic.servicepartner.Activity.AfterGstPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.tecmanic.servicepartner.Activity.BookingConfirm" />
+        <activity android:name="com.tecmanic.servicepartner.Activity.StartJob" />
+        <activity
+            android:name="com.tecmanic.servicepartner.Activity.ServiceDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.tecmanic.servicepartner.Activity.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.tecmanic.servicepartner.Activity.LoginSignupActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.tecmanic.servicepartner.Activity.Razorpay" />
+
+        <service android:name="com.tecmanic.servicepartner.Constants.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_foaCDOaPaHxQCb" /> <!-- rzp_test_7fnnn7WTaard4h -->
+        <activity android:name="com.tecmanic.servicepartner.Activity.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
